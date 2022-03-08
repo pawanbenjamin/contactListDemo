@@ -2,12 +2,13 @@ import React from 'react'
 
 import SingleDoggo from './SingleDoggo'
 
-const DoggieList = ({ pups }) => {
-  console.log(pups)
+const DoggieList = ({ pups, setFavPupper }) => {
   return (
     <div>
       {pups.map((pup, i) => {
-        return <SingleDoggo pup={pup} i={i} />
+        return (
+          <SingleDoggo key={i} pup={pup} i={i} setFavPupper={setFavPupper} />
+        )
       })}
     </div>
   )
