@@ -2,7 +2,7 @@
 
 ### In Class walkthrough React Demo
 
-####Instructions:
+Instructions:
 1. Clone Repo
 2. ```npm install```
-3. ```npm start``` ---> Starts the server at ####localhost:1234
+3. ```npm start``` ---> Starts the server at localhost:1234
