@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 
+// Static information can stay OUTSIDE of the component
 const URL =
   'https://fsa-puppy-bowl.herokuapp.com/api/2202-FTB-ET-WEB-FT/players'
 
